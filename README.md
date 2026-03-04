@@ -19,6 +19,7 @@
 
 ## 🚀 Current Projects
 
+- 🎯 **[ThreatCanvas](https://github.com/ivproduced/ThreatCanvas)** — AI-powered STRIDE threat modeling with interactive attack surface visualization; describe your architecture in plain English → get risk-ranked findings, kill chain mapping, and mitigation recommendations powered by GitHub Copilot SDK
 - 🔄 **[OSCALFlow](https://github.com/ivproduced/OSCALFlow)** — GitHub CLI extension that automates OSCAL compliance documentation; generate FedRAMP-ready SSPs from your codebase in seconds
 - 🤖 **[D.A.V.E](https://github.com/ivproduced/D.A.V.E)** — AI-powered compliance automation engine using Google Gemini; analyzes evidence artifacts, maps controls to NIST 800-53, and generates valid OSCAL artifacts
 - 🛡️ **[copilot-cli-security](https://github.com/ivproduced/copilot-cli-security)** — AI-powered security analysis extension for GitHub Copilot CLI; identifies vulnerabilities in code changes and scans dependencies ⭐ 2
