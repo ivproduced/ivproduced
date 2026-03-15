@@ -49,6 +49,11 @@
 - 🏅 Built OSCALFlow for the **GitHub + MCP Hackathon** — a native CLI that generates valid OSCAL 1.2.0 JSON
 - 🔍 OSCALFlow detects **50+ control implementations** across **8 languages** with AI-powered validation via Copilot CLI
 
+## 🎓 Certifications
+
+![GitHub Copilot Certified](https://img.shields.io/badge/GitHub_Copilot-Certified-000000?style=flat-square&logo=github&logoColor=white)
+![CompTIA SecAI+ Certified](https://img.shields.io/badge/CompTIA-SecAI%2B_Certified-C8202F?style=flat-square&logo=comptia&logoColor=white)
+
 ---
 
 ## 📊 GitHub Activity
