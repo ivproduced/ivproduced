@@ -25,7 +25,9 @@
 - 🛡️ **[copilot-cli-security](https://github.com/ivproduced/copilot-cli-security)** — AI-powered security analysis extension for GitHub Copilot CLI; identifies vulnerabilities in code changes and scans dependencies ⭐ 2
 - 🖥️ **[SYSAdmin-CoPilot](https://github.com/ivproduced/SYSAdmin-CoPilot)** — Agent-native infrastructure management control plane where GitHub Copilot SDK orchestrates real system operations through secure tool gateways ⭐ 15
 - 📚 **[nist-rag-agent](https://github.com/ivproduced/nist-rag-agent)** — Conversational RAG agent for NIST cybersecurity guidance, powered by 530K+ training examples from 596 NIST publications with LangChain & FAISS
-- 🎲 **[Soc-ops-lab](https://github.com/ivproduced/Soc-ops-lab)** — Social Bingo game for in-person mixers; find people who match the questions and get 5 in a row
+- 🧭 **[COMPASS](https://github.com/ivproduced/COMPASS)** — Compliance Mapping and Policy Assessment Speech System; a FedRAMP voice agent powered by Gemini 2.5 Pro Live API — describe your architecture out loud → real-time NIST SP 800-53 control mapping, gap analysis, and OSCAL document generation
+- 🤖 **[B.O.B.B.I.E](https://github.com/ivproduced/B.O.B.B.I.E)** — Bedrock-Orchestrated Baseline & Behavior Intelligence Engine; hierarchical multi-agent NIST SP 800-53 Rev 5 compliance assessment powered by AWS Bedrock (Amazon Nova) with evidence-driven findings, AI-augmented risk narratives, and OSCAL output
+
 
 ### Forks & Contributions
 
