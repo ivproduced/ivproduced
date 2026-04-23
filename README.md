@@ -17,8 +17,26 @@
 
 ---
 
+## 🌟 Flagship Product
+
+### **OSCAL Pocket Guide**
+
+The mobile guide for NIST cybersecurity publications related to OSCAL, built for compliance engineers, security practitioners, and builders working in NIST and FedRAMP environments. OSCAL Pocket Guide helps you quickly navigate the source documents, guidance, and reference material that inform OSCAL-based work from anywhere.
+
+<p>
+	<a href="https://apps.apple.com/my/app/oscal-pocket-guide/id6744904723">
+		<img src="assets/badges/app-store-badge.svg" alt="Download on the App Store" height="56">
+	</a>
+	<a href="https://play.google.com/store/apps/details?id=life.eucann.nist_pocket_guide">
+		<img src="assets/badges/google-play-badge.svg" alt="Get it on Google Play" height="56">
+	</a>
+</p>
+
+---
+
 ## 🚀 Current Projects
 
+- 📱 **[OSCAL Pocket Guide](https://apps.apple.com/my/app/oscal-pocket-guide/id6744904723)** — Flagship mobile app for exploring NIST cybersecurity documents related to OSCAL on the go; available on [App Store](https://apps.apple.com/my/app/oscal-pocket-guide/id6744904723) and [Google Play](https://play.google.com/store/apps/details?id=life.eucann.nist_pocket_guide)
 - 🎯 **[ThreatCanvas](https://github.com/ivproduced/ThreatCanvas)** — AI-powered STRIDE threat modeling with interactive attack surface visualization; describe your architecture in plain English → get risk-ranked findings, kill chain mapping, and mitigation recommendations powered by GitHub Copilot SDK
 - 🔄 **[OSCALFlow](https://github.com/ivproduced/OSCALFlow)** — GitHub CLI extension that automates OSCAL compliance documentation; generate FedRAMP-ready SSPs from your codebase in seconds
 - 🤖 **[D.A.V.E](https://github.com/ivproduced/D.A.V.E)** — AI-powered compliance automation engine using Google Gemini; analyzes evidence artifacts, maps controls to NIST 800-53, and generates valid OSCAL artifacts
