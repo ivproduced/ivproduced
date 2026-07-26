@@ -74,7 +74,9 @@ The mobile guide for NIST cybersecurity publications related to OSCAL, built for
 ## 🎓 Certifications
 
 ![GitHub Copilot Certified](https://img.shields.io/badge/GitHub_Copilot-Certified-000000?style=flat-square&logo=github&logoColor=white)
+![GitHub Administration Certified](https://img.shields.io/badge/GitHub_Administration-Certified-000000?style=flat-square&logo=github&logoColor=white)
 ![CompTIA SecAI+ Certified](https://img.shields.io/badge/CompTIA-SecAI%2B_Certified-C8202F?style=flat-square&logo=comptia&logoColor=white)
+![AWS Certified AI Practitioner](https://img.shields.io/badge/AWS-Certified_AI_Practitioner-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
 
 ---
 
