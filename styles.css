@@ -169,6 +169,16 @@ li {
   margin: 0;
 }
 
+.hero-tagline {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--accent-2);
+  max-width: 45ch;
+  margin: 0.75rem 0 0;
+  line-height: 1.4;
+}
+
 .hero-text {
   max-width: 55ch;
   font-size: 1.1rem;
