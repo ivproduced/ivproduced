@@ -1,13 +1,13 @@
 :root {
-  --bg: #f6f1e8;
-  --panel: rgba(255, 252, 246, 0.76);
-  --panel-strong: #fffdf8;
-  --ink: #122033;
-  --muted: #576579;
-  --line: rgba(18, 32, 51, 0.12);
-  --accent: #c65d2e;
-  --accent-2: #0a7c7b;
-  --shadow: 0 24px 60px rgba(18, 32, 51, 0.12);
+  --bg: #eaf5fc;
+  --panel: rgba(255, 255, 255, 0.76);
+  --panel-strong: #ffffff;
+  --ink: #0d2b3e;
+  --muted: #4c6779;
+  --line: rgba(13, 43, 62, 0.12);
+  --accent: #0ea5e9;
+  --accent-2: #0369a1;
+  --shadow: 0 24px 60px rgba(13, 76, 110, 0.14);
   --radius: 24px;
   --max: 1180px;
 }
@@ -28,9 +28,9 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(198, 93, 46, 0.18), transparent 26rem),
-    radial-gradient(circle at 85% 20%, rgba(10, 124, 123, 0.14), transparent 22rem),
-    linear-gradient(180deg, #fbf7ef 0%, #f6f1e8 100%);
+    radial-gradient(circle at top left, rgba(14, 165, 233, 0.2), transparent 26rem),
+    radial-gradient(circle at 85% 20%, rgba(3, 105, 161, 0.16), transparent 22rem),
+    linear-gradient(180deg, #f4fafe 0%, #eaf5fc 100%);
 }
 
 a {
@@ -138,6 +138,16 @@ p,
 li {
   line-height: 1.7;
   color: var(--muted);
+}
+
+.hero-avatar {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--panel-strong);
+  box-shadow: var(--shadow);
+  margin-bottom: 1.25rem;
 }
 
 .hero-text {
@@ -275,7 +285,7 @@ li {
 
 .project-card-featured {
   background:
-    linear-gradient(160deg, rgba(198, 93, 46, 0.1), rgba(10, 124, 123, 0.08)),
+    linear-gradient(160deg, rgba(14, 165, 233, 0.12), rgba(3, 105, 161, 0.08)),
     var(--panel-strong);
 }
 
