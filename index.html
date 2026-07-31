@@ -10,11 +10,23 @@
     />
     <link rel="canonical" href="https://ivproduced.com/" />
     <meta property="og:url" content="https://ivproduced.com/" />
+    <meta property="og:type" content="website" />
     <meta property="og:title" content="Tevin | AI-Powered DevSecOps Builder" />
     <meta
       property="og:description"
       content="Security and compliance engineering work focused on AI-powered DevSecOps, OSCAL, NIST, and FedRAMP."
     />
+    <meta property="og:image" content="https://ivproduced.com/assets/images/avatar.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@Ivproduced" />
+    <meta name="twitter:title" content="Tevin | AI-Powered DevSecOps Builder" />
+    <meta
+      name="twitter:description"
+      content="Security and compliance engineering work focused on AI-powered DevSecOps, OSCAL, NIST, and FedRAMP."
+    />
+    <meta name="twitter:image" content="https://ivproduced.com/assets/images/avatar.png" />
+    <link rel="icon" type="image/png" href="assets/images/avatar.png" />
+    <link rel="apple-touch-icon" href="assets/images/avatar.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
     <link
@@ -38,15 +50,20 @@
       <main id="top">
         <section class="hero">
           <div class="hero-copy">
-            <img
-              class="hero-avatar"
-              src="assets/images/avatar.png"
-              alt="Portrait of Tevin"
-              width="128"
-              height="128"
-            />
-            <p class="eyebrow">Maryland • Security &amp; Compliance Engineer</p>
-            <h1>Building AI-powered tools that make federal compliance move at developer speed.</h1>
+            <div class="hero-identity">
+              <img
+                class="hero-avatar"
+                src="assets/images/avatar.png"
+                alt="Portrait of Tevin"
+                width="72"
+                height="72"
+              />
+              <div>
+                <p class="hero-name">Tevin</p>
+                <p class="eyebrow">Maryland • Security &amp; Compliance Engineer</p>
+              </div>
+            </div>
+            <h1>AI-powered DevSecOps for federal compliance.</h1>
             <p class="hero-text">
               I design DevSecOps tooling that turns NIST, OSCAL, and FedRAMP-heavy workflows
               into practical systems engineers can ship with.
@@ -96,7 +113,7 @@
                 teams can move faster without losing the compliance thread.
               </p>
               <div class="store-links">
-                <a href="https://apps.apple.com/my/app/oscal-pocket-guide/id6744904723">
+                <a href="https://apps.apple.com/us/app/oscal-pocket-guide/id6744904723">
                   <img
                     src="assets/badges/app-store-badge.svg"
                     alt="Download on the App Store"
@@ -128,53 +145,73 @@
             <p class="eyebrow">Current Projects</p>
             <h2>Security, compliance, and AI systems built for real operators</h2>
           </div>
-          <div class="project-grid">
+          <div class="project-grid project-grid-featured">
             <article class="project-card project-card-featured">
               <h3>OSCAL Pocket Guide</h3>
-              <p>Mobile app for exploring NIST cybersecurity documents related to OSCAL on the go.</p>
-              <a href="https://apps.apple.com/my/app/oscal-pocket-guide/id6744904723">Open project</a>
+              <p>Mobile reference for exploring NIST cybersecurity documents related to OSCAL on the go.</p>
+              <ul class="project-meta">
+                <li>Role: Solo developer</li>
+                <li>Status: Live on iOS &amp; Android</li>
+                <li>Flagship product — see above for details</li>
+              </ul>
+              <a href="https://apps.apple.com/us/app/oscal-pocket-guide/id6744904723">Open project</a>
             </article>
-            <article class="project-card">
-              <h3>Cybersecurity-LLM-Engineering</h3>
-              <p>Evidence-backed portfolio project for LoRA fine-tuning, dataset-quality analysis, and authorization-evidence workflows for an on-prem cybersecurity LLM.</p>
-              <a href="https://github.com/ivproduced/Cybersecurity-LLM-Engineering">Open project</a>
-            </article>
-            <article class="project-card">
-              <h3>IV-Code-Defender</h3>
-              <p>Claude Code skills plus a sandboxed agent pipeline for finding, verifying, patching, and exporting vulnerability findings as OSCAL evidence.</p>
-              <a href="https://github.com/ivproduced/IV-Code-Defender">Open project</a>
-            </article>
-            <article class="project-card">
-              <h3>ThreatCanvas</h3>
-              <p>AI-powered STRIDE threat modeling with interactive attack surface visualization.</p>
-              <a href="https://github.com/ivproduced/ThreatCanvas">Open project</a>
-            </article>
-            <article class="project-card">
-              <h3>OSCALFlow</h3>
-              <p>GitHub CLI extension that scans repos, auto-detects NIST 800-53 control implementations, and generates FedRAMP-ready OSCAL SSPs with AI-powered validation.</p>
-              <a href="https://github.com/ivproduced/OSCALFlow">Open project</a>
-            </article>
-            <article class="project-card">
+            <article class="project-card project-card-featured">
               <h3>TRACE</h3>
               <p>Multimodal AI compliance automation that maps evidence to NIST 800-53 and generates OSCAL artifacts using Gemini 3 Pro.</p>
+              <ul class="project-meta">
+                <li>Role: Creator</li>
+                <li>Status: Active, public release</li>
+                <li>5-agent pipeline, OSCAL 1.2.0 SSP &amp; POA&amp;M generation</li>
+              </ul>
               <a href="https://github.com/ivproduced/TRACE">Open project</a>
             </article>
-            <article class="project-card">
+            <article class="project-card project-card-featured">
               <h3>SYSAdmin-CoPilot</h3>
               <p>Agent-native infrastructure management control plane with secure tool gateways.</p>
+              <ul class="project-meta">
+                <li>Role: Creator</li>
+                <li>Status: GitHub Copilot SDK Mini Hackathon build</li>
+                <li>READ/WRITE/ADMIN permission-scoped tool gateway</li>
+              </ul>
               <a href="https://github.com/ivproduced/SYSAdmin-CoPilot">Open project</a>
             </article>
-            <article class="project-card">
-              <h3>COMPASS</h3>
-              <p>Voice-first FedRAMP agent using Gemini Live for real-time NIST 800-53 control mapping, gap analysis, and OSCAL document generation.</p>
-              <a href="https://github.com/ivproduced/COMPASS">Open project</a>
-            </article>
-            <article class="project-card">
-              <h3>B.O.B.B.I.E</h3>
-              <p>Hierarchical multi-agent federal compliance assessment engine powered by AWS Bedrock (Amazon Nova) with evidence-driven findings and POA&amp;M output.</p>
-              <a href="https://github.com/ivproduced/B.O.B.B.I.E">Open project</a>
-            </article>
           </div>
+          <details class="all-projects">
+            <summary>View all projects</summary>
+            <div class="project-grid">
+              <article class="project-card">
+                <h3>Cybersecurity-LLM-Engineering</h3>
+                <p>Evidence-backed portfolio project for LoRA fine-tuning, dataset-quality analysis, and authorization-evidence workflows for an on-prem cybersecurity LLM.</p>
+                <a href="https://github.com/ivproduced/Cybersecurity-LLM-Engineering">Open project</a>
+              </article>
+              <article class="project-card">
+                <h3>IV-Code-Defender</h3>
+                <p>Claude Code skills plus a sandboxed agent pipeline for finding, verifying, patching, and exporting vulnerability findings as OSCAL evidence.</p>
+                <a href="https://github.com/ivproduced/IV-Code-Defender">Open project</a>
+              </article>
+              <article class="project-card">
+                <h3>ThreatCanvas</h3>
+                <p>AI-powered STRIDE threat modeling with interactive attack surface visualization.</p>
+                <a href="https://github.com/ivproduced/ThreatCanvas">Open project</a>
+              </article>
+              <article class="project-card">
+                <h3>OSCALFlow</h3>
+                <p>GitHub CLI extension that scans repos, auto-detects NIST 800-53 control implementations, and generates FedRAMP-ready OSCAL SSPs with AI-powered validation.</p>
+                <a href="https://github.com/ivproduced/OSCALFlow">Open project</a>
+              </article>
+              <article class="project-card">
+                <h3>COMPASS</h3>
+                <p>Voice-first FedRAMP agent using Gemini Live for real-time NIST 800-53 control mapping, gap analysis, and OSCAL document generation.</p>
+                <a href="https://github.com/ivproduced/COMPASS">Open project</a>
+              </article>
+              <article class="project-card">
+                <h3>B.O.B.B.I.E</h3>
+                <p>Hierarchical multi-agent federal compliance assessment engine powered by AWS Bedrock (Amazon Nova) with evidence-driven findings and POA&amp;M output.</p>
+                <a href="https://github.com/ivproduced/B.O.B.B.I.E">Open project</a>
+              </article>
+            </div>
+          </details>
         </section>
 
         <section id="focus" class="section split-section">
@@ -257,6 +294,14 @@
             <h2>Say hello or follow the work</h2>
           </div>
           <div class="contact-grid">
+            <a class="contact-card" href="mailto:Harris.tevin11@gmail.com">
+              <span class="contact-label">Email</span>
+              <strong>Harris.tevin11@gmail.com</strong>
+            </a>
+            <a class="contact-card" href="https://www.linkedin.com/in/tevinharris">
+              <span class="contact-label">LinkedIn</span>
+              <strong>/in/tevinharris</strong>
+            </a>
             <a class="contact-card" href="https://github.com/ivproduced">
               <span class="contact-label">GitHub</span>
               <strong>@ivproduced</strong>
@@ -264,10 +309,6 @@
             <a class="contact-card" href="https://x.com/Ivproduced">
               <span class="contact-label">X</span>
               <strong>@Ivproduced</strong>
-            </a>
-            <a class="contact-card" href="https://ivproduced.com">
-              <span class="contact-label">Website</span>
-              <strong>ivproduced.com</strong>
             </a>
           </div>
         </section>

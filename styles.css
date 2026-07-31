@@ -98,7 +98,7 @@ img {
 .hero {
   grid-template-columns: minmax(0, 1.5fr) minmax(280px, 0.85fr);
   align-items: center;
-  padding: 4rem 0 2rem;
+  padding: 2.5rem 0 2rem;
 }
 
 .eyebrow,
@@ -121,8 +121,8 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(3rem, 7vw, 5.5rem);
-  max-width: 12ch;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  max-width: 16ch;
 }
 
 h2 {
@@ -140,14 +140,33 @@ li {
   color: var(--muted);
 }
 
+.hero-identity {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
 .hero-avatar {
-  width: 128px;
-  height: 128px;
+  width: 72px;
+  height: 72px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--panel-strong);
   box-shadow: var(--shadow);
-  margin-bottom: 1.25rem;
+  flex-shrink: 0;
+}
+
+.hero-name {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--ink);
+  margin: 0 0 0.15rem;
+}
+
+.hero-identity .eyebrow {
+  margin: 0;
 }
 
 .hero-text {
@@ -277,6 +296,57 @@ li {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.project-grid-featured {
+  margin-bottom: 1.5rem;
+}
+
+.project-meta {
+  list-style: none;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+}
+
+.project-meta li {
+  color: var(--muted);
+  padding-left: 1rem;
+  position: relative;
+}
+
+.project-meta li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
+.all-projects summary {
+  cursor: pointer;
+  font-weight: 700;
+  font-family: "Space Grotesk", sans-serif;
+  color: var(--accent-2);
+  padding: 0.75rem 0;
+  list-style: none;
+}
+
+.all-projects summary::-webkit-details-marker {
+  display: none;
+}
+
+.all-projects summary::before {
+  content: "+ ";
+}
+
+.all-projects[open] summary::before {
+  content: "− ";
+}
+
+.all-projects[open] summary {
+  margin-bottom: 1rem;
+}
+
 .project-card,
 .highlight-card,
 .contact-card {
@@ -337,7 +407,7 @@ li {
 }
 
 .contact-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .contact-card {
